@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+/* Full-width title banner */
+.title-banner {
+  width: 100%;
+  background-color: lightblue;
+  text-align: center;
+  padding: 10px;
+}
+
+.title-banner h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #87ceeb; /* Light sky blue */
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cloud {
+  font-size: 24px; /* Adjust the size of the cloud */
+  margin-right: 5px; /* Space between clouds */
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+/* Table container with border */
+/* .feature-table-container {
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 20px;
+  background-color: #f5f5f5;
+} */
+.feature-table-container {
+  border: 1px solid #ccc; /* Border for the entire table */
+  margin: 20px;
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* To round corners */
+}
+/* Header row and content row styles */
+.feature-table .header-row,
+.feature-table .content-row {
+  display: grid;
+  grid-template-columns: 50px 1fr 2fr 2fr;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+.header-row {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.feature-table > div {
+  padding: 1em;
+  border: 1px solid #333;
+}
+
+.header-row div {
+  font-weight: bold;
+  background-color: #e3e3e3;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  font-family: monospace;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.box {
+  padding: 20px;
+  margin: 15px;
+  border: 5px solid #333;
+  background-color: #f0f8ff;
+  color: #333;
+  font-size: 16px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.serial-number,
+.overview,
+.code-tabs,
+.display {
+  padding: 5px;
+  border-right: 1px solid #ccc;
+}
+.display {
+  overflow-wrap: break-word;
+}
+
+.box {
+  border: 1px solid #333;
+  padding: 10px;
+}
